@@ -1,0 +1,35 @@
+.container2{
+    width: auto;
+    max-width: auto;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.container2 .card2
+{
+    width: 250px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    margin:20px;
+    text-align: center;
+    transition: all 0.45s;
+    float: left;
+    background-color:  #e1ab8a;
+}
+
+.container2 .card2:hover{
+    transition: traslate(-15px);
+    box-shadow: 12px 24px 30px rgba(0, 0, 0, 0.249);
+}
+
+.container2 .card2 img{
+    margin-top: 15px;
+    width: 220px;
+    height: 220px;
+    border-radius: 5%;
+}
